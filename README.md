@@ -4,7 +4,7 @@
 
 Here lies all the THAs and Leetcode problems tracking, all I solved, or atleast tried during DEVSNEST journey.
 
-Maybe I will in future organise it, with specially curated FOLDER.(MAYBE.......)
+Maybe I will in future organise it, with specially curated FOLDER. (MAYBE.......)
 
 ### Languages I'm using as of right now: 
 
