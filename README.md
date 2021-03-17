@@ -20,4 +20,4 @@ Maybe I will in future organise it, with specially curated FOLDER.(MAYBE.......)
 
 - [CPH HELPHER]() : For easy sample inputs integration directly from the site. No need to type all the input ever again. Requires chrome extension.
 
-#### Also thanks [Pathetic_geek](https://github.com/patheticGeek) for this OP Idea. Pathetic only by name , Can finds bugs in your code from a mile far but not his Crush's hints.
+#### Also thanks [Pathetic_geek](https://github.com/patheticGeek) for this OP Idea. Pathetic only by name , Can finds bugs in your code from a mile far but not his Crush's hints..
