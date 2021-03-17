@@ -1,10 +1,12 @@
-# Devsnest-DSA
+# Devsnest-DSA (In-Progress)
 
 Here lies all the THAs and Leetcode problems tracking, all I solved, or atleast tried during DEVSNEST journey.
 
 Maybe I will in future organise it, with specially curated FOLDER.(MAYBE.......)
 
-### Language I'm using: JAVA
+### Languages I'm using as of right now: 
+
+- JAVA
 
 ### Extentions used: 
 
