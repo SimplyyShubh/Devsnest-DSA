@@ -27,7 +27,7 @@ public class UniqueFractions {
         for (Map.Entry<ArrayList<Integer>, Double> key : res.entrySet()) {
             a[i++] = new int[] { key.getKey().get(0), key.getKey().get(1) };
         }
-        a
+        
 
         return a;
 
