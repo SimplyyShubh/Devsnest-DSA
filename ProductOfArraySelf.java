@@ -4,7 +4,6 @@ public class ProductOfArraySelf {
 
     public static int[] prductExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
-
         int zero = 0, index = 0;
         int product = 1;
 

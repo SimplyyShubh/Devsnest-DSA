@@ -1,31 +1,29 @@
-import java.util.* ;
+import java.util.*;
 
 public class ValidAnagram {
 
     public static boolean isAnagram(String s, String t) {
-        HashSet<Character> seta = new HashSet<>();
-        HashSet<Character> setb = new HashSet<>();
-        // HashMap<Integer,Integer> a = new HashMap<>() ;
+        Map<Character, Integer> map = new HashMap<>();
 
-        if (s.length() != t.length())
-            return false;
+        if(s.length() != t.length())
+            return false ;
 
-        Arrays.sort(s.toCharArray());
-        Arrays.sort(t.toCharArray());
+        for (Character c : s.toCharArray())
+            map.put(c, map.getOrDefault(c,0) + 1);
 
-        for (Character c : s.toCharArray()) {
-            seta.add(Character.toLowerCase(c));
-        }
-        for (Character c : t.toCharArray()) {
-            setb.add(Character.toLowerCase(c));
+        for (Character c : t.toCharArray()){
+            if(map.containsKey(c) && map.get(c) != 0)
+                map.put(c, map.get(c) - 1) ;
+            else
+                return false ;
         }
 
-        return seta.size() == setb.size();
+        return true ;
     }
 
     public static void main(String[] args) {
-        String s = "rat";
-        String t = "car";
+        String s = "rfaec";
+        String t = "caarf";
         System.out.println(isAnagram(s, t));
     }
 }
