@@ -21,5 +21,6 @@ public class ReverseLL {
 
         h.next = reverse(h.next) ;
         
+        return new ListNode() ;
     }
 }

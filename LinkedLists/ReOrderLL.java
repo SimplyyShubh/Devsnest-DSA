@@ -1,7 +1,5 @@
 package LinkedLists;
 
-import java.util.List;
-
 public class ReOrderLL {
     public static void reorderList(ListNode head) {
         ListNode h = head , tail , curr;
