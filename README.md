@@ -2,9 +2,9 @@
 
 (In-Progress)
 
-Here lies all the THAs and Leetcode problems tracking, all I solved, or atleast tried during DEVSNEST journey.
+Here lies all the THAs and Class problems (Leetcode) tracked, solved, or atleast tried during my DEVSNEST journey.
 
-Maybe I will in future organise it, with specially curated FOLDER. (MAYBE.......)
+Maybe in future it will be organised, with specially curated FOLDER. (MAYBE.......)
 
 ### Languages I'm using as of right now: 
 
