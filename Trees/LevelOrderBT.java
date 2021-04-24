@@ -6,6 +6,7 @@ public class LevelOrderBT {
     public static List<List<Integer>> levelOrder(TreeNode root) {
         int level = MaxDepthBT.maxDepth(root);
         List<List<Integer>> list = new ArrayList<>();
+        
         for (int i = 1; i < level+1; i++) {
             List<Integer> index = new ArrayList<>();
             traverse(index, root, i);
